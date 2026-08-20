@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Multimedia Page</title>
+    <link rel="stylesheet" href="style.css">
+
+         <style>
+        
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 25px;
+            margin: 10px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ffaef2;
+        }
+
+        .container {
+            background-color: #ffc6ec;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        h2 {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .images {
+            display: flex;
+            gap: 5px;
+            overflow-x: auto;
+        }
+
+        .images img {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            border: 3px solid black;
+            border-radius: 15px;
+        }
+
+        .music {
+            text-align: center;
+        }
+
+        .song {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .song p {
+            font-size: 20px;
+        }
+
+        audio {
+            width: 100%;
+        }
+
+        .video-section {
+            margin: 20px;
+        }
+
+        .video-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .video {
+            margin-bottom: 30px;
+        }
+
+        .video p {
+            font-size: 20px;
+        }
+
+        video {
+            width: 294px;
+            height: 165px;
+            background-color: #fdb6ff;
+        }
+    
+    </style> 
+</head>
+
+<body>
+
+    <h1>My Multimedia Page</h1>
+
+    <hr>
+
+    <!-- FAVORITE IMAGE -->
+    <div class="container">
+
+        <h2>My Favorite Image</h2>
+
+        <div class="images">
+            <img src="image1.jpg">
+            <img src="image2.jpg">
+            <img src="image3.jpg">
+            <img src="image4.jpg">
+            <img src="image5.jpg">
+        </div>
+
+    </div>
+
+
+    <!-- MUSIC LIST -->
+    <div class="container music">
+
+        <h2>Music List</h2>
+
+        <div class="song">
+            <p>1. Alonica by Lany</p>
+            <audio controls>
+                <source src="Alonica.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="song">
+            <p> In My Dreams by REO Speedwagon</p>
+            <audio controls>
+                <source src="In My Dreams.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="song">
+            <p>Count On Me by Bruno Mars</p>
+            <audio controls>
+                <source src="Count on Me.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="song">
+            <p>Ocean & Engines by Niki</p>
+            <audio controls>
+                <source src="Oceans & Engines.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="song">
+            <p>Oceans (Where Feet May Fail) by Hillsong United</p>
+            <audio controls>
+                <source src="Oceans (Where Feet May Fail).mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+    </div>
+
+
+    <!-- DREAM DESTINATION -->
+    <div class="container video-section">
+
+        <h2>DREAM DESTINATION</h2>
+
+        <div class="video">
+            <p>Philippines</p>
+            <video controls>
+                <source src="Philippines.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video">
+            <p>Switzerland</p>
+            <video controls>
+                <source src="Switzerland.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video">
+            <p>Japan</p>
+            <video controls>
+                <source src="Japan.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video">
+            <p>Paris</p>
+            <video controls>
+                <source src="Paris.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video">
+            <p>Korea</p>
+            <video controls>
+                <source src="Korea.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+</body>
+</html>
